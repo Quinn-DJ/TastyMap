@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0802FF81EF18458CBE225E1A /* PlaceMapCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AAB6FEDD7F01CA1A07539E /* PlaceMapCanvas.swift */; };
+		47053735CD014A86D8BD0041 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417E174EEEF3166B2BAF2F8 /* KeychainStore.swift */; };
+		5498D687F627E139AF00EBC9 /* PlaceSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB84E048EE1405DDCFE8E92 /* PlaceSyncService.swift */; };
+		6223539E7C3EC34D4B4E575D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97B8535B7E04EC3930706B6 /* Assets.xcassets */; };
+		6CAA8333FB54CF2867C66EBE /* TastySearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F71571E88C6E1C112F63B03 /* TastySearchField.swift */; };
+		700DFB28B3AE08FC07E86E1F /* PlaceLookupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85B7EA3524A386838926 /* PlaceLookupModel.swift */; };
+		8180D8A793BFED2C9CD4952D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3821E45C2ED9253E94FC76 /* RootView.swift */; };
+		828313FE0E88EB1B0CCE7534 /* FoodPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96914AB7FBFB065886A103C /* FoodPlace.swift */; };
+		8722DF5FD3534FA0336CD4D0 /* PlaceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6AEC3525D253CA6338724 /* PlaceStatus.swift */; };
+		88AEA7A3275F7C1AD839E3B0 /* TastyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6883B22F286D695F07C1A /* TastyTheme.swift */; };
+		9F5FF44298330235924BA2E6 /* PlaceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D0112ABF8EC937AA5C27C6 /* PlaceEditorView.swift */; };
+		A0505F169643DD2FEE219B7D /* FoodPlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227262B2961E50B1E0A4775D /* FoodPlaceTests.swift */; };
+		A36C8693586C5418C3359969 /* MapWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B318BBE3D7989B4E96B507 /* MapWorkspaceView.swift */; };
+		B0F7FF287B634C5C4F53AE78 /* TastyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256DBEC836E069B78689C42 /* TastyAPIClient.swift */; };
+		B734A5390DE2E2C6A32EAD0B /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C54D8C11B2297D145C8E783 /* APIModels.swift */; };
+		BA57C261FF7EBD952A4A1C5E /* AppleMapsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074D002137CC619A3B9F36F /* AppleMapsNavigator.swift */; };
+		C19675454B7FCC2EF07F2672 /* PlaceListPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCDE24639E67A3CE0A8CA9 /* PlaceListPanel.swift */; };
+		C6A78AFE389D9288D46D2B23 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B2A00D613ED6255829030 /* AppConfig.swift */; };
+		C6B2891C0CC94BA216F87D19 /* TastyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C6491C08A721DCF1E33FA /* TastyMapApp.swift */; };
+		CB02197F1E03448878DC8C24 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5AE454953E762093BCEB62 /* UserProfile.swift */; };
+		DD6C700E57455109343796B4 /* PlaceDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38227A895A64ED0DF431F38 /* PlaceDetailCard.swift */; };
+		F622DCE30B3F02F757FC9D92 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870648C0ADBA46EDFED91C3 /* LoginView.swift */; };
+		FC1A2750B279E3110FA53092 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F078BFEBA8951474381BF /* AppSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA50ABBB3632C669E73C5D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A93BF133FBDE9C733A403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678B704878B91CF8378837B1;
+			remoteInfo = TastyMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F71571E88C6E1C112F63B03 /* TastySearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastySearchField.swift; sourceTree = "<group>"; };
+		227262B2961E50B1E0A4775D /* FoodPlaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlaceTests.swift; sourceTree = "<group>"; };
+		274B2A00D613ED6255829030 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		4E881DEBC7019CE8914EF119 /* TastyMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5870648C0ADBA46EDFED91C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5C54D8C11B2297D145C8E783 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		5F5AE454953E762093BCEB62 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		7074D002137CC619A3B9F36F /* AppleMapsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsNavigator.swift; sourceTree = "<group>"; };
+		7AB84E048EE1405DDCFE8E92 /* PlaceSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSyncService.swift; sourceTree = "<group>"; };
+		7D2F078BFEBA8951474381BF /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		821C6491C08A721DCF1E33FA /* TastyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyMapApp.swift; sourceTree = "<group>"; };
+		99D0112ABF8EC937AA5C27C6 /* PlaceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEditorView.swift; sourceTree = "<group>"; };
+		A96914AB7FBFB065886A103C /* FoodPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlace.swift; sourceTree = "<group>"; };
+		B9B318BBE3D7989B4E96B507 /* MapWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorkspaceView.swift; sourceTree = "<group>"; };
+		C7AAB6FEDD7F01CA1A07539E /* PlaceMapCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMapCanvas.swift; sourceTree = "<group>"; };
+		CD3821E45C2ED9253E94FC76 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CEA6883B22F286D695F07C1A /* TastyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyTheme.swift; sourceTree = "<group>"; };
+		CEFCDE24639E67A3CE0A8CA9 /* PlaceListPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListPanel.swift; sourceTree = "<group>"; };
+		D38227A895A64ED0DF431F38 /* PlaceDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailCard.swift; sourceTree = "<group>"; };
+		E256DBEC836E069B78689C42 /* TastyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyAPIClient.swift; sourceTree = "<group>"; };
+		E417E174EEEF3166B2BAF2F8 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		E48E298C3D0F1EFFFF22D283 /* TastyMap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TastyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97B8535B7E04EC3930706B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9DD85B7EA3524A386838926 /* PlaceLookupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLookupModel.swift; sourceTree = "<group>"; };
+		FFC6AEC3525D253CA6338724 /* PlaceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStatus.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		240EFEC8C9E1D50ECF267520 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				942AF2BC74888AF1B94434CD /* Auth */,
+				9BB88B4ACE2ED0F17B3E75A6 /* Map */,
+				AA5C7621D89104ABC44D4581 /* Places */,
+				A101A5C522836BA396140EEE /* Root */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3D83DBDB8FD61B22B3B88C2C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				274B2A00D613ED6255829030 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		478C1F1582D21F381980A8C3 = {
+			isa = PBXGroup;
+			children = (
+				47B9E5043CE072FA0B74FD05 /* TastyMap */,
+				894618905DAE1D78520BC9A4 /* TastyMapTests */,
+				4F3DC2316449E429EB6E0232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47B9E5043CE072FA0B74FD05 /* TastyMap */ = {
+			isa = PBXGroup;
+			children = (
+				9249D4CEDCA7A7BCA7FB8181 /* App */,
+				3D83DBDB8FD61B22B3B88C2C /* Config */,
+				BFCADF3684536275D299B566 /* Design */,
+				240EFEC8C9E1D50ECF267520 /* Features */,
+				EFE1527C8ED49377BB8EB05A /* Models */,
+				DA72F06DD7EF0AE67DEE8EE9 /* Navigation */,
+				9F970867649A06D43EF5E636 /* Networking */,
+				60E2746A91283F0463439C91 /* Resources */,
+				BDD414BEDD50C22E96DDD454 /* Sync */,
+			);
+			path = TastyMap;
+			sourceTree = "<group>";
+		};
+		4F3DC2316449E429EB6E0232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48E298C3D0F1EFFFF22D283 /* TastyMap.app */,
+				4E881DEBC7019CE8914EF119 /* TastyMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E2746A91283F0463439C91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F97B8535B7E04EC3930706B6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		894618905DAE1D78520BC9A4 /* TastyMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				227262B2961E50B1E0A4775D /* FoodPlaceTests.swift */,
+			);
+			path = TastyMapTests;
+			sourceTree = "<group>";
+		};
+		9249D4CEDCA7A7BCA7FB8181 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				821C6491C08A721DCF1E33FA /* TastyMapApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		942AF2BC74888AF1B94434CD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5870648C0ADBA46EDFED91C3 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9BB88B4ACE2ED0F17B3E75A6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B9B318BBE3D7989B4E96B507 /* MapWorkspaceView.swift */,
+				C7AAB6FEDD7F01CA1A07539E /* PlaceMapCanvas.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9F970867649A06D43EF5E636 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5C54D8C11B2297D145C8E783 /* APIModels.swift */,
+				7D2F078BFEBA8951474381BF /* AppSession.swift */,
+				E417E174EEEF3166B2BAF2F8 /* KeychainStore.swift */,
+				E256DBEC836E069B78689C42 /* TastyAPIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A101A5C522836BA396140EEE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CD3821E45C2ED9253E94FC76 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		AA5C7621D89104ABC44D4581 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				D38227A895A64ED0DF431F38 /* PlaceDetailCard.swift */,
+				99D0112ABF8EC937AA5C27C6 /* PlaceEditorView.swift */,
+				CEFCDE24639E67A3CE0A8CA9 /* PlaceListPanel.swift */,
+				F9DD85B7EA3524A386838926 /* PlaceLookupModel.swift */,
+				0F71571E88C6E1C112F63B03 /* TastySearchField.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		BDD414BEDD50C22E96DDD454 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				7AB84E048EE1405DDCFE8E92 /* PlaceSyncService.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		BFCADF3684536275D299B566 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6883B22F286D695F07C1A /* TastyTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		DA72F06DD7EF0AE67DEE8EE9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7074D002137CC619A3B9F36F /* AppleMapsNavigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EFE1527C8ED49377BB8EB05A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A96914AB7FBFB065886A103C /* FoodPlace.swift */,
+				FFC6AEC3525D253CA6338724 /* PlaceStatus.swift */,
+				5F5AE454953E762093BCEB62 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678B704878B91CF8378837B1 /* TastyMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1EE2449AFB42FEFDC08A3B /* Build configuration list for PBXNativeTarget "TastyMap" */;
+			buildPhases = (
+				20103FA0A5CE73BE102A7EF1 /* Sources */,
+				0914DDA5EEB0ABED9791F907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TastyMap;
+			packageProductDependencies = (
+			);
+			productName = TastyMap;
+			productReference = E48E298C3D0F1EFFFF22D283 /* TastyMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B958567EF5DE2F2473951881 /* TastyMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F03F7DD025147D0E4914036 /* Build configuration list for PBXNativeTarget "TastyMapTests" */;
+			buildPhases = (
+				24F2FD2E16AF8C357BFE130F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59C4F72C13F75A250716ADA /* PBXTargetDependency */,
+			);
+			name = TastyMapTests;
+			packageProductDependencies = (
+			);
+			productName = TastyMapTests;
+			productReference = 4E881DEBC7019CE8914EF119 /* TastyMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A93BF133FBDE9C733A403A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					678B704878B91CF8378837B1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE8CF1F7B0DAF763C925EDB8 /* Build configuration list for PBXProject "TastyMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 478C1F1582D21F381980A8C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F3DC2316449E429EB6E0232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678B704878B91CF8378837B1 /* TastyMap */,
+				B958567EF5DE2F2473951881 /* TastyMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0914DDA5EEB0ABED9791F907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6223539E7C3EC34D4B4E575D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20103FA0A5CE73BE102A7EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734A5390DE2E2C6A32EAD0B /* APIModels.swift in Sources */,
+				C6A78AFE389D9288D46D2B23 /* AppConfig.swift in Sources */,
+				FC1A2750B279E3110FA53092 /* AppSession.swift in Sources */,
+				BA57C261FF7EBD952A4A1C5E /* AppleMapsNavigator.swift in Sources */,
+				828313FE0E88EB1B0CCE7534 /* FoodPlace.swift in Sources */,
+				47053735CD014A86D8BD0041 /* KeychainStore.swift in Sources */,
+				F622DCE30B3F02F757FC9D92 /* LoginView.swift in Sources */,
+				A36C8693586C5418C3359969 /* MapWorkspaceView.swift in Sources */,
+				DD6C700E57455109343796B4 /* PlaceDetailCard.swift in Sources */,
+				9F5FF44298330235924BA2E6 /* PlaceEditorView.swift in Sources */,
+				C19675454B7FCC2EF07F2672 /* PlaceListPanel.swift in Sources */,
+				700DFB28B3AE08FC07E86E1F /* PlaceLookupModel.swift in Sources */,
+				0802FF81EF18458CBE225E1A /* PlaceMapCanvas.swift in Sources */,
+				8722DF5FD3534FA0336CD4D0 /* PlaceStatus.swift in Sources */,
+				5498D687F627E139AF00EBC9 /* PlaceSyncService.swift in Sources */,
+				8180D8A793BFED2C9CD4952D /* RootView.swift in Sources */,
+				B0F7FF287B634C5C4F53AE78 /* TastyAPIClient.swift in Sources */,
+				C6B2891C0CC94BA216F87D19 /* TastyMapApp.swift in Sources */,
+				6CAA8333FB54CF2867C66EBE /* TastySearchField.swift in Sources */,
+				88AEA7A3275F7C1AD839E3B0 /* TastyTheme.swift in Sources */,
+				CB02197F1E03448878DC8C24 /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F2FD2E16AF8C357BFE130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0505F169643DD2FEE219B7D /* FoodPlaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59C4F72C13F75A250716ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678B704878B91CF8378837B1 /* TastyMap */;
+			targetProxy = DA50ABBB3632C669E73C5D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32E2B3F2988D086A4F6BF3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.TastyMapTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyMap.app/Contents/MacOS/TastyMap";
+			};
+			name = Debug;
+		};
+		34E2F8A127F5AE21D0443491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40B4A14D5CC996FF71F9AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TastyMap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationUsageDescription = "TastyMap 使用你的位置来显示附近收藏和地图位置。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TastyMap 使用你的位置来显示附近收藏和地图位置。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.TastyMap;
+				PRODUCT_NAME = TastyMap;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		686A3E6D3C8BD5E8063EA38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TastyMap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationUsageDescription = "TastyMap 使用你的位置来显示附近收藏和地图位置。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TastyMap 使用你的位置来显示附近收藏和地图位置。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.TastyMap;
+				PRODUCT_NAME = TastyMap;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98B33A88FFF324DE5B03D91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.TastyMapTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyMap.app/Contents/MacOS/TastyMap";
+			};
+			name = Release;
+		};
+		D26BFAE34A31084291E38F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1EE2449AFB42FEFDC08A3B /* Build configuration list for PBXNativeTarget "TastyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B4A14D5CC996FF71F9AFBB /* Debug */,
+				686A3E6D3C8BD5E8063EA38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F03F7DD025147D0E4914036 /* Build configuration list for PBXNativeTarget "TastyMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E2B3F2988D086A4F6BF3B0 /* Debug */,
+				98B33A88FFF324DE5B03D91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE8CF1F7B0DAF763C925EDB8 /* Build configuration list for PBXProject "TastyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E2F8A127F5AE21D0443491 /* Debug */,
+				D26BFAE34A31084291E38F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A93BF133FBDE9C733A403A /* Project object */;
+}
